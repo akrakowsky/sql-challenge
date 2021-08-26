@@ -15,7 +15,7 @@ Select * from employees;
 --Salaries schema
 CREATE TABLE salaries(
   emp_no INTEGER,
-  FOREIGN KEY (emp_id) REFERENCES employees(emp_id),
+  FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
   salary INTEGER
 );
 
@@ -25,7 +25,7 @@ Select * from salaries;
 --Department employee schema
 CREATE TABLE dept_emp(
   emp_no INTEGER,
-  FOREIGN KEY (emp_id) REFERENCES employees(emp_id),
+  FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
   dept_no VARCHAR(20),
   FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
@@ -36,7 +36,7 @@ Select * from dept_emp;
 --Department manager schema
 CREATE TABLE dept_manager(
   emp_no INTEGER,
-  FOREIGN KEY (emp_id) REFERENCES employees(emp_id),
+  FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
   dept_no VARCHAR(20),
   FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
@@ -56,7 +56,6 @@ Select * from departments;
 --Titles schema
 CREATE TABLE titles(
   title_id VARCHAR(20),
-  FOREIGN KEY (title_id) REFERENCES employees(emp_title),
   titles VARCHAR(100)
 );
 
