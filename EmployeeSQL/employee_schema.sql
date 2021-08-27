@@ -35,10 +35,10 @@ Select * from dept_emp;
 
 --Department manager schema
 CREATE TABLE dept_manager(
-  emp_no INTEGER,
-  FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
   dept_no VARCHAR(20),
-  FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
+  FOREIGN KEY (dept_no) REFERENCES departments(dept_no),
+  emp_no INTEGER,
+  FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
 
 --import dept_manager csv
