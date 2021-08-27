@@ -14,7 +14,7 @@ Design tables for previous Pewlett Hackard employees
     6. salaries csv
     7. Employee ERD
     8. employee schema (Schemas for all 6 tables)
-    9. 
+    9. queries for data analysis
     10. 
 2. License
 3. ReadMe
