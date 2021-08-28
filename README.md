@@ -21,9 +21,3 @@ Design tables for previous Pewlett Hackard employees
 
 -----------
 
-# Observations
-
-1. 
-2. 
-3. 
-
