@@ -15,7 +15,7 @@ Design tables for previous Pewlett Hackard employees
     7. employee_ERD.png
     8. employee_schema.sql (Schemas for all 6 tables)
     9. queries.sql for data analysis
-    10. 
+    10. Optional_Data_Analysis
 2. License
 3. ReadMe
 
